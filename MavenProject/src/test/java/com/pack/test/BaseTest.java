@@ -39,8 +39,8 @@ public class BaseTest {
 		prop.load(fis);
 		
 		
-		//String browsername = prop.getProperty("browser");
-		String browsername=System.getProperty("browser");
+		String browsername = prop.getProperty("browser");
+		//String browsername=System.getProperty("browser");
 		if(browsername.equalsIgnoreCase("chrome"))
 			
 		{

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage {
 
 	public WebDriver driver;
-	//defining page object
+
 	@FindBy(id = "txtUsername")
 	WebElement Username;
 	@FindBy(id = "txtPassword")
@@ -16,7 +16,7 @@ public class LoginPage {
 	@FindBy(id = "btnLogin")
 	WebElement Login;
 	
-	
+		//defining page object
 	
 	
 	

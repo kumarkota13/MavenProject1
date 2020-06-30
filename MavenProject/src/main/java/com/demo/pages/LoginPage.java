@@ -18,7 +18,7 @@ public class LoginPage {
 	
 	
 	
-	//define the behviour
+	
 	
 	public LoginPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
@@ -28,6 +28,8 @@ public class LoginPage {
 
 	public void setUsername(String user)
 	{
+	//define the behviour	
+		
 		driver.findElement(By.id("txtUsername")).sendKeys(user);
 		 
 

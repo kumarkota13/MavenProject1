@@ -45,7 +45,7 @@ public class LoginPage {
 		//Login.click();
      driver.findElement(By.id("btnLogin")).click();
 	}
-	System.out.println("dfsdfsdgsdddsfsgdgsgsdgdf");
+	System.out.println("dfsdgsgsdgdf");
 	
 	
 	
